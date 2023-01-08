@@ -391,7 +391,7 @@ display: none;
     /* fixes starts */
 
     .getStartedWrap {
-        background: url(/images/backgroundMobileSec5.png);
+        background-image: url(/images/backgroundMobileSec5.png);
         padding: 380px 15px 80px !important;
         margin: 0 auto;
         background-size: contain;
@@ -638,6 +638,7 @@ display: none;
 .serviceDetails{
     margin-top: 20px;
     font-weight: 400;
+ 
     font-size: 20px;
     line-height: 140%;
     color: #68696C;
@@ -657,14 +658,14 @@ display: none;
     background: #EDEDED;
 }
 
-.serviceDetailWrap.withDark::before{
+/* .serviceDetailWrap.withDark::before{
     left: -5px;
     background: url('/images/boxHeadTopDark.png');
     background-size: contain;
     background-repeat: no-repeat;
-}
+} */
 
-.serviceDetailWrap::before {
+/* .serviceDetailWrap::before {
     content: "";
     background: url('/images/boxHeadTop.png');
     width: calc(100% + 8px);
@@ -674,7 +675,20 @@ display: none;
     top: -70px;
     background-size: contain;
     background-repeat: no-repeat;
+} */
+
+.objectTop{
+    position: absolute;
+    display: block;
+    width: calc(100% + 8px);
+    left: -4px;
+    top: -70px;
 }
+
+.serviceDetailWrap.withDark .objectTop{
+    left: -5px;
+}
+
 
 .listFixes .barlow-black .flex{
     align-items: flex-end;
@@ -689,6 +703,7 @@ display: none;
 .footer{
     background: url('/images/footerBackground.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .footer .grid-4{
