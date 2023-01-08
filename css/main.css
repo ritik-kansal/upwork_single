@@ -404,6 +404,7 @@ display: none;
         margin: 0 auto;
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: top;
     }
 
     .getStartedWrap .bg-grey-4{
@@ -709,7 +710,7 @@ display: none;
 }
 
 .footer{
-    background: url('./images/footerBackground.jpg');
+    background: url('../images/footerBackground.jpg');
     background-size: cover;
     background-position: center;
 }
