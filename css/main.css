@@ -510,7 +510,9 @@ display: none;
 .serviceDetailWrap.withDark{
     background: #EDEDED;
 }
-
+.flex-start{
+    align-items: flex-start;
+}
 /* .serviceDetailWrap.withDark::before{
     left: -5px;
     background: url('/images/compressed/boxHeadTopDark.png');
