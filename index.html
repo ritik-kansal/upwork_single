@@ -8,8 +8,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Source+Sans+Pro:ital,wght@0,600;0,700;1,400&family=Source+Serif+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/main.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+
 </head>
 <body>
+
+    <!-- sidemenu starts -->
+
+    <div class="sideFullMenu" id="fullSideMenu">
+            <ul class="sidemneuList">
+                <li><a href="javascript:void();">Home</a></li>
+                <li><a href="javascript:void();">Services</a></li>
+                <li><a href="javascript:void();">Projects</a></li>
+                <li><a href="javascript:void();">About Our Team</a></li>
+                </li>
+            </ul>
+    </div>
+
+    <!-- sidemenu ends -->
+
 
     <!-- NavBar -->
     <div class="grid-3-nav items-center border-bottom">
@@ -24,9 +42,18 @@
             <a href="#contact">PROJECT</a>
             <img src="./images/rect.png" height="16" alt="">
             <a href="#about">ABOUT OUR TEAM</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+
+            <div class="hamburger-menu mob-visible">
+                <button class="ham-button" onclick="sideMenu();">
+                    <span class="ham-lines"></span>
+                    <span class="ham-lines"></span>
+                    <span class="ham-lines"></span>
+                </button>
+            </div>
+
+            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa fa-bars"></i>
-            </a>
+            </a> -->
         </div>
         <div class="h-100 nav-contact_us">
             <div class="flex items-center justify-between bg-grey h-100 white">
