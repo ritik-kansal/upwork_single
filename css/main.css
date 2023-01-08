@@ -391,7 +391,7 @@ display: none;
     /* fixes starts */
 
     .objectTop{
-        top: 58px;
+        top: -58px !important;
     }
 
     .getStartedWrap {
