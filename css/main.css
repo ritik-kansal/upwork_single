@@ -56,7 +56,7 @@ body {
 }
 
 .hero-section{
-    background: url(../images/hero-section.png) no-repeat center;
+    background: url(../images/bic-compressed/hero-section.png) no-repeat center;
     background-size: cover;
     height: 100%;
     min-height: 980px;
@@ -66,27 +66,27 @@ body {
 }
 
 .second-bg{
-    background: url(../images/bg-2.png) no-repeat center;
+    background: url(../images/bic-compressed/bg-2.png) no-repeat center;
     background-size: cover;
 }
 
 .points{
-    background: url(../images/bg-3.png) no-repeat center;
+    background: url(../images/bic-compressed/bg-3.png) no-repeat center;
     background-size: cover;
 }
 
 .bg-4{
-    background: url(../images/bg-4.png) no-repeat center;
+    background: url(../images/bic-compressed/bg-4.png) no-repeat center;
     background-size: cover;
 }
 
 .bg-5{
-    background: url(../images/bg-5.png) no-repeat center;
+    background: url(../images/bic-compressed/bg-5.png) no-repeat center;
     background-size: cover;
 }
 
 .bg-6{
-    background: url(../images/bg-6.png) no-repeat center;
+    background: url(../images/bic-compressed/bg-6.png) no-repeat center;
     background-size: cover;
 }
 
@@ -513,7 +513,7 @@ display: none;
     }
 
     .getStartedWrap {
-        background-image: url(../images/backgroundMobileSec5.png);
+        background-image: url(../images/bic-compressed/backgroundMobileSec5.png);
         padding: 380px 15px 80px !important;
         margin: 0 auto;
         background-size: contain;
@@ -783,14 +783,14 @@ display: none;
 
 /* .serviceDetailWrap.withDark::before{
     left: -5px;
-    background: url('/images/boxHeadTopDark.png');
+    background: url('/images/bic-compressed/boxHeadTopDark.png');
     background-size: contain;
     background-repeat: no-repeat;
 } */
 
 /* .serviceDetailWrap::before {
     content: "";
-    background: url('/images/boxHeadTop.png');
+    background: url('/images/bic-compressed/boxHeadTop.png');
     width: calc(100% + 8px);
     height: 100px;
     position: absolute;
@@ -824,7 +824,7 @@ display: none;
 }
 
 .footer{
-    background: url('../images/footerBackground.jpg');
+    background: url('../images/bic-compressed/footerBackground.jpg');
     background-size: cover;
     background-position: center;
 }
