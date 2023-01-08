@@ -390,6 +390,10 @@ display: none;
 
     /* fixes starts */
 
+    .objectTop{
+        top: 58px;
+    }
+
     .getStartedWrap {
         background-image: url(/images/backgroundMobileSec5.png);
         padding: 380px 15px 80px !important;
