@@ -511,7 +511,7 @@ display: none;
     background: #EDEDED;
 }
 .flex-start{
-    align-items: flex-start;
+    align-items: flex-start !important;
 }
 /* .serviceDetailWrap.withDark::before{
     left: -5px;
