@@ -399,7 +399,7 @@ display: none;
     }
 
     .getStartedWrap {
-        background-image: url(/images/backgroundMobileSec5.png);
+        background-image: url(../images/backgroundMobileSec5.png);
         padding: 380px 15px 80px !important;
         margin: 0 auto;
         background-size: contain;
@@ -709,7 +709,7 @@ display: none;
 }
 
 .footer{
-    background: url('/images/footerBackground.jpg');
+    background: url('./images/footerBackground.jpg');
     background-size: cover;
     background-position: center;
 }
