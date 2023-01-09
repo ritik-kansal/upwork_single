@@ -694,17 +694,6 @@ display: none;
 		visibility: hidden;
 	}
 
-
-
-
-
-
-
-
-    .objectTop{
-        top: -55px !important;
-    }
-
     .serviceDetailWrap.withDark .objectTop{
         left: -4px !important;
         height: auto;
