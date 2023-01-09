@@ -499,7 +499,7 @@ display: none;
 .serviceDetailWrap{
     padding: 20px 40px 60px;
     max-width: 410px;
-    min-height: 63%;
+    min-height: 70%;
     margin: 0 auto;
     transform: translateY(-20px);
     border: 4px solid #a5a7aa;
@@ -537,7 +537,7 @@ display: none;
     display: block;
     width: calc(100% + 8px);
     left: -4px;
-    top: -70px;
+    transform: translateY(-100%);
 }
 
 .serviceDetailWrap.withDark .objectTop{
